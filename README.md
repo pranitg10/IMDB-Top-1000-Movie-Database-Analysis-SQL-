@@ -38,11 +38,11 @@ The project involves data cleaning, transformation, and advanced SQL queries to 
 - Identifying patterns in ratings and revenue based on the release year.
 
 ## 🔍 Key Insights & SQL Query Results
-✔ Highest-Grossing Movie – Avengers: Endgame ($2.7B revenue).
-✔ Highest-Rated Movie – The Shawshank Redemption (9.3/10 rating).
-✔ Successful Directors & Actors – Steven Spielberg is among the top-grossing directors, and Leonardo DiCaprio frequently appears in highly-rated movies.
-✔ Most Profitable Genres – Drama & Action movies generate the highest revenue and ratings.
-✔ Time-Based Trends – The year of release does not always determine success; rather, ratings, votes, and revenue play a bigger role.
+- ✔ Highest-Grossing Movie – Avengers: Endgame ($2.7B revenue).
+- ✔ Highest-Rated Movie – The Shawshank Redemption (9.3/10 rating).
+- ✔ Successful Directors & Actors – Steven Spielberg is among the top-grossing directors, and Leonardo DiCaprio frequently appears in highly-rated movies.
+- ✔ Most Profitable Genres – Drama & Action movies generate the highest revenue and ratings.
+- ✔ Time-Based Trends – The year of release does not always determine success; rather, ratings, votes, and revenue play a bigger role.
 
 ## 🛠️ SQL Techniques Used
 - ✅ Aggregate Functions – (AVG, SUM, COUNT) to calculate total revenue, ratings, and votes.
