@@ -1,54 +1,61 @@
 # 🎬 SQL Project: IMDB Top 1000 Movie Database Analysis
-### 📌 Overview
-This project analyzes the IMDB Top 1000 Movies dataset using SQL to extract meaningful insights about movie ratings, box office performance, and industry trends. The main objective is to explore how factors such as directors, actors, genres, and time periods influence a movie’s success.
 
-The project involves data exploration, cleaning, transformation, and advanced SQL queries to uncover key trends in the film industry.
+## 📌 Overview
+This project analyzes the IMDB Top 1000 Movies dataset using SQL to explore ratings, revenue, genres, and success factors. 
+The objective is to uncover how elements like directors, actors, genres, and time periods impact a movie’s success.
 
-### 📂 Project Structure
-Data Exploration 🕵️‍♂️
+The project involves data cleaning, transformation, and advanced SQL queries to extract key insights and trends in the film industry.
 
+## 📂 Project Structure
+### 🔍 Data Exploration 🕵️‍♂️
 - Understanding dataset structure and attributes.
 - Identifying missing values, data types, and key trends.
-- Data Cleaning & Transformation 🧼
 
+## 🧼 Data Cleaning & Transformation
 - Renaming columns for better readability.
 - Handling missing or inconsistent data.
 - Transforming data types to optimize queries.
-- Aggregate Analysis 📊
 
-- Computing summary statistics such as average ratings, total revenue, and vote counts.
+## 📊 Aggregate Analysis
+- Computing average ratings, total revenue, and vote counts.
 - Grouping data by different parameters to extract meaningful trends.
-- Top Grossing & Highest Rated Movies 💰⭐
 
+## 💰⭐ Top Grossing & Highest Rated Movies
 - Identifying highest-grossing movies.
-- Finding movies with highest IMDb ratings and their correlation with revenue.
-- Director & Actor Insights 🎭
+- Finding highest-rated movies and their correlation with revenue.
 
+## 🎭 Director & Actor Insights
 - Analyzing the most successful directors and actors.
 - Finding directors with the most highly-rated movies.
 - Identifying actors who frequently appear in successful films.
-- Genre-Based Analysis 🎞️
 
+## 🎞️ Genre-Based Analysis
 - Determining the most profitable and highly-rated genres.
 - Comparing the performance of different movie genres over time.
-- Year-Based & Time-Based Trends ⏳
 
+## ⏳ Year-Based & Time-Based Trends
 - Analyzing how movie success evolved over different decades.
 - Identifying patterns in ratings and revenue based on the release year.
 
-### 🔍 Key Insights
-- Highest Grossing Movies: Identified top box office performers and revenue trends over the years.
-- Top-Rated Movies: Discovered the highest-rated movies and their correlation with different factors.
-- Director & Actor Impact: Found the most influential directors and actors based on movie performance.
-- Genre Trends: Highlighted the most successful genres based on revenue and ratings.
-- Time-Based Trends: Examined how movie success has changed over different periods.
+## 🔍 Key Insights & SQL Query Results
+✔ Highest-Grossing Movie – Avengers: Endgame ($2.7B revenue).
+✔ Highest-Rated Movie – The Shawshank Redemption (9.3/10 rating).
+✔ Successful Directors & Actors – Steven Spielberg is among the top-grossing directors, and Leonardo DiCaprio frequently appears in highly-rated movies.
+✔ Most Profitable Genres – Drama & Action movies generate the highest revenue and ratings.
+✔ Time-Based Trends – The year of release does not always determine success; rather, ratings, votes, and revenue play a bigger role.
 
-### 🛠️ Technologies Used
+## 🛠️ SQL Techniques Used
+✅ Aggregate Functions – (AVG, SUM, COUNT) to calculate total revenue, ratings, and votes.
+✅ GROUP BY – To categorize movies by genres, directors, and years.
+✅ Window Functions – (RANK, DENSE_RANK) to rank top-rated and highest-grossing movies per year.
+✅ Common Table Expressions (CTEs) – To extract top-grossing actors and directors.
+✅ Subqueries – To compare movies with above-average ratings and revenue.
+
+## 🛠️ Technologies Used
 - SQL – For querying and analyzing data.
 - IMDB Dataset (Top 1000 Movies) – Source data for analysis.
 - Database Management System (DBMS) – To store and manage data efficiently.
 
-### 📌 Conclusion
-This project provides valuable insights for filmmakers, production houses, investors, and movie enthusiasts by leveraging historical data trends to predict future movie success. 
-By analyzing factors such as actors, directors, genres, ratings, and time-based trends, this project helps identify key elements that contribute to a successful movie.
-
+## 📌 Conclusion
+This project provides valuable insights into what makes a movie successful based on real-world data. 
+By analyzing ratings, revenue, genres, directors, and actors, it helps filmmakers, production houses, and investors make data-driven decisions for future movie productions.
