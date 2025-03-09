@@ -49,6 +49,6 @@ Data Exploration 🕵️‍♂️
 - Database Management System (DBMS) – To store and manage data efficiently.
 
 ### 📌 Conclusion
--- This project provides valuable insights for filmmakers, production houses, investors, and movie enthusiasts by leveraging historical data trends to predict future movie success. 
+- This project provides valuable insights for filmmakers, production houses, investors, and movie enthusiasts by leveraging historical data trends to predict future movie success. 
 By analyzing factors such as actors, directors, genres, ratings, and time-based trends, this project helps identify key elements that contribute to a successful movie.
 
