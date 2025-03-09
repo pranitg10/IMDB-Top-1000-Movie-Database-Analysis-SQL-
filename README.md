@@ -45,11 +45,11 @@ The project involves data cleaning, transformation, and advanced SQL queries to 
 ✔ Time-Based Trends – The year of release does not always determine success; rather, ratings, votes, and revenue play a bigger role.
 
 ## 🛠️ SQL Techniques Used
-✅ Aggregate Functions – (AVG, SUM, COUNT) to calculate total revenue, ratings, and votes.
-✅ GROUP BY – To categorize movies by genres, directors, and years.
-✅ Window Functions – (RANK, DENSE_RANK) to rank top-rated and highest-grossing movies per year.
-✅ Common Table Expressions (CTEs) – To extract top-grossing actors and directors.
-✅ Subqueries – To compare movies with above-average ratings and revenue.
+- ✅ Aggregate Functions – (AVG, SUM, COUNT) to calculate total revenue, ratings, and votes.
+- ✅ GROUP BY – To categorize movies by genres, directors, and years.
+- ✅ Window Functions – (RANK, DENSE_RANK) to rank top-rated and highest-grossing movies per year.
+- ✅ Common Table Expressions (CTEs) – To extract top-grossing actors and directors.
+- ✅ Subqueries – To compare movies with above-average ratings and revenue.
 
 ## 🛠️ Technologies Used
 - SQL – For querying and analyzing data.
